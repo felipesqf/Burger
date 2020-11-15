@@ -17,3 +17,17 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+.devoured_bu{
+  float: left;
+}
+h1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+h2, ul{
+  text-align: center;
+}
+#addburger{
+  text-align: center;
+  justify-content: center;
+}
