@@ -1,6 +1,6 @@
-# Employee Tracker
+# Burger - Node Express Handlebars
 
-This is an application that can be used to manage employee  that make it easy for non-developers to view and interact with information stored in databases.
+This is an application that can be used to manage employee that make it easy for non-developers to view and interact with information stored in databases.
 
 
 ## Contents
