@@ -1,6 +1,7 @@
-# Burger - Node Express Handlebars
+# Employee Tracker
 
-This is a burger logger application with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It follows the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
+This is an application that can be used to manage employee  that make it easy for non-developers to view and interact with information stored in databases.
+
 
 ## Contents
 
@@ -8,29 +9,26 @@ The project is composed of readme, package.json, schema.sql, seed.sql and licens
 
 ## User Story
 
-As a business owner
-I want to be able to view and manage the departments, roles, and employees in my company
-So that I can organize and plan my business
-​
+* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
 
 ## Acceptance Criteria
 
-* Functional application.
-* The command-line application should allow users to:
+* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-  * Add departments, roles, employees
+* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
-  * View departments, roles, employees
+* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-  * Update employee roles
+* Your app will store every burger in a database, whether devoured or not.
 
 ### Instalation
 
-* Use the [MySQL](https://www.npmjs.com/package/mysql) NPM package to connect to your MySQL database and perform queries.
-
-* Use [InquirerJs](https://www.npmjs.com/package/inquirer/v/0.2.3) NPM package to interact with the user via the command-line.
-
-* Use [console.table](https://www.npmjs.com/package/console.table) to print MySQL rows to the console. There is a built-in version of `console.table`, but the NPM package formats the data a little better for our purposes.
+* Install the Express npm package: `npm install express`.
+* Install the Handlebars npm package: `npm install express-handlebars`.
+* Install MySQL npm package: `npm install mysql`.
+* Require the following npm packages inside of the server.js file:
+   * express
 
 ## Built With
 
@@ -40,7 +38,7 @@ So that I can organize and plan my business
 
 #### Final Product
 
-![screenshot1](https://github.com/felipesqf/Employee-Tracker/blob/master/Assets/emptracker.png)
+![screenshot1](https://github.com/felipesqf/Burger/blob/master/public/assets/images/app.png)
 
 
 ### Licence
