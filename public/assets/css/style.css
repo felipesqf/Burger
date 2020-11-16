@@ -31,9 +31,9 @@ body{
   .form-group {
     margin-bottom: 5px;
   }
-  .devoured_bu{
+  /* .devoured_bu{
     float: left;
-  }
+  } */
   h1{
     text-align: center;
     padding-bottom: 50px;
