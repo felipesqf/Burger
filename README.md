@@ -48,7 +48,7 @@ License under the [MIT License](LICENSE)
 
 ### Link to the Website
 
-N/A
+<a href="https://whispering-tor-94667.herokuapp.com/">Link to the Burger application</a>
 
 ## Authors
 
